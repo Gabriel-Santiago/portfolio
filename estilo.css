@@ -1,0 +1,90 @@
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.card-img-top {
+    height: 100%; 
+    width: auto; 
+    display: block;
+}
+
+div .btn {
+    border: 10;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+#collapse {
+    display: none;
+}
+
+.corPrimaria {
+    background-color: #ADD8E6;
+}
+
+.corSecundaria {
+    background-color: #ff6347;
+}
+
+.icones{
+    padding-left: 18px;
+    color: #ff6347;
+}
+
+.titulosBrancos{
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVermelhos{
+    text-underline-position: below;
+    padding-bottom: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff6347 !important;
+}
+
+.card-text{
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-link{
+    color:white;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.btn{
+    color: white;
+    position: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#botao{
+    background-color: white;
+    border-style:initial;
+    height: 27px;
+    width: 45px;
+}

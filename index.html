@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/aca10ac044.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.nav-toggle').click(function () {
+                var collapse_content_selector = $(this).attr('href');
+                var toggle_switch = $(this);
+                $(collapse_content_selector).toggle(function () {
+                    if ($(this).css('display') == 'none') {
+                        toggle_switch.html('Leia Mais');
+                    } else {
+                        toggle_switch.html('Leia Menos');
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <nav class="corSecundaria titulosBrancos navbar navbar-expand-lg navbar-ligth mb-0">
+        <a class="navbar-brand corSecundaria" href="#">Gabriel Santiago</a>
+        <button class="navbar-toggler" id="botao" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ibb.co/tbhmJzf" target="blank">Currículo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section style="background:#ADD8E6" class="jumbotron text-center titulosVermelhos mb-0">
+        <div class="container">
+            <img class="foto-perfil" src="fotos/eu.jpg" alt="">
+            <h1 style="color: #ff6347;" class="jumbotron-heading ">Gabriel Santiago</h1>
+            <p class="lead titulosVermelhos">Developer Junior - Java - Python</p>
+            <p>
+                <a href="#contato" class="btn corSecundaria">Contato</a>
+            </p>
+            <a href="https://www.linkedin.com/in/gabriel-santiago-05867b1b1/" target="blank"><i
+                    class="fab fa-linkedin icones fa-3x"></i></a>
+            <a href="https://github.com/Gabriel-Santiago"><i class="fab fa-github icones fa-3x" target="blank"></i></a>
+        </div>
+    </section>
+    <div class="album py-5 corSecundaria" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosBrancos">Projetos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="fotos/logomarca.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Landing Page feita para aprimorar os estudos em HTML5 e CSS3.</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://gabriel-santiago.github.io/Maricotinha-Naturalis/"
+                                        target="blank"><button type="button" class="btn corSecundaria">Conhecer a
+                                            página</button></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="fotos/github.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Abaixo segue o link para o meu GitHub, onde você irá encontrar mais
+                                projetos.</p>
+                            <ul>
+                                <li>Java</li>
+                                <li>Python</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Gabriel-Santiago" target="blank"><button type="button"
+                                            class="btn corSecundaria">Ver projetos</button></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Sobre Mim-->
+    <section style="background:#ADD8E6" class="jumbotron text-center mb-0" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosVermelhos">Sobre mim</h2>
+            <div class="row titulosVermelhos">
+                <p class="lead">Um estudante apaixonado pelo conhecimento, se aventurando no mundo da programação e do
+                    desenvolvimento web. Estudando e praticando Java, Python e desenvolvimento web.</p>
+                <div id="collapse">
+                    <p>A student in love for knowledge, if adventuring in world of programming and of web development.
+                        Studying and practicing Java, Python and web development.
+
+                    </p>
+                </div>
+                <a href="#collapse" class="nav-toggle">Leia mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section>
+        <div id="contato">
+            <div class="container-fluid corSecundaria titulosBrancos">
+                <h3 style="padding-top: 54px;" class="text-center">Disponível para oportunidades</h3>
+                <a href="mailto:gabrielsrmj@alu.ufc.br">
+                    <h4 style="padding-bottom: 54px;" class="text-center titulosBrancos">gabrielsrmj@alu.ufc.br</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="text-center corPrimaria titulosVermelhos textoFooter">
+        <p>&copy; 2021 - GS Desenvolvimento Web</p>
+    </footer>
+</body>
+
+</html>
