@@ -56,6 +56,14 @@ div .btn {
     color: #ff6347 !important;
 }
 
+.lead{
+    text-underline-position: below;
+    padding-bottom: 27px;
+    font-weight: 400;
+    color: #ff6347 !important;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .card-text{
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
